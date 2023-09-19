@@ -16,7 +16,6 @@ import java.util.Scanner;
 //  vírgula), incluindo no final a mensagem "km/l".
 public class ConsumoMedioCombustivel {
     private static int distanciaTotalPercorrida;
-    private static double totalCombustivelConsumido;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
@@ -28,7 +27,7 @@ public class ConsumoMedioCombustivel {
             System.out.println("Digite números inteiros para a distância percorrida em km");
         }
         System.out.print("Digite o combustivel consumido: ");
-        totalCombustivelConsumido = sc.nextDouble();
+        double totalCombustivelConsumido = sc.nextDouble();
 
         double calculoConsumoMedio = distanciaTotalPercorrida / totalCombustivelConsumido;
 
