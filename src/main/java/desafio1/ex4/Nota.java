@@ -1,4 +1,4 @@
-package condicionais.ex4;
+package desafio1.ex4;
 
 import java.util.Locale;
 import java.util.Scanner;

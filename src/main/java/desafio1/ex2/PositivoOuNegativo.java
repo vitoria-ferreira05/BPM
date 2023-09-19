@@ -1,4 +1,4 @@
-package condicionais.ex2;
+package desafio1.ex2;
 
 import java.util.Scanner;
 

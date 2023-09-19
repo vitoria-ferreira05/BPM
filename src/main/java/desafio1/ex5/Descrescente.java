@@ -1,4 +1,4 @@
-package condicionais.ex5;
+package desafio1.ex5;
 
 import java.util.ArrayList;
 import java.util.Collections;
